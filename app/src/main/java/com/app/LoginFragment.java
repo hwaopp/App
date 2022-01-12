@@ -90,7 +90,7 @@ public class LoginFragment extends Fragment {
                 }else{
                     NavController navController = Navigation.findNavController(view);
                     navController.navigate(R.id.action_loginFragment_to_resultFragment);
-                    Toast.makeText(activity, respMemberBean.getNickname(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, respMemberBean.getNickname() + "\n登入成功", Toast.LENGTH_SHORT).show();
                 }
             } catch (Exception e) {
                 e.printStackTrace();

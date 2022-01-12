@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/textUserName"
         app:counterEnabled="true"
+        app:counterMaxLength="10"
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edUsername"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="dennis" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -36,7 +38,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/textPassword"
         app:counterEnabled="true"
-        app:counterMaxLength="8"
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
@@ -46,7 +47,8 @@
             android:id="@+id/edPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:password="true" />
+            android:password="true"
+            android:text="p@ssword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

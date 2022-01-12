@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">App</string>
-    <string name="textUserName">帳號</string>
-    <string name="textPassword">密碼</string>
-    <string name="textLogin">登入</string>
+    <string name="textUserName">User</string>
+    <string name="textPassword">Password</string>
+    <string name="textLogin">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textHight">Hight(CM):</string>
+    <string name="textWeight">Weight(KG):</string>
+    <string name="textCount">Count</string>
+    <string name="textResult">Result:</string>
+    <string name="textLogout">Logout</string>
+    <string name="textClean">Clean</string>
+    <string name="textAboutBMI">About BMI</string>
+    <string name="textQuit">Quit</string>
+    <string name="textAboutBMIWeb">About BMI Web</string>
 </resources>
